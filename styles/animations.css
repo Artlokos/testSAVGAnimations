@@ -1,0 +1,125 @@
+/* Опишите в этом файле все keyframes для проекта и стили анимаций иконки Like.
+
+Будьте внимательны! Для корректной работы скриптов на этом сайте нужно, чтобы в HTML некоторые классы были названы особым образом:
+✦ theme-dark — класс тёмной темы
+✦ theme-light — класс светлой темы
+✦ like-icon — для svg-иконки анимированного сердца
+✦ card__like-button — для кнопки Like рядом с иконкой
+✦ card__icon-button — для кнопки, оборачивающей иконку
+✦ card__icon-button — для кнопки, оборачивающей иконку
+✦ is-liked — для обозначения состояния лайкнутой иконки в виде сердца
+✦ button__text — для обозначения текстового элемента внутри кнопки
+
+Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
+*/
+
+.theme-menu__button:disabled::before {
+    animation: select__point 0.5s ease infinite alternate;
+}
+
+.card__icon-button:hover {
+  .like-icon {
+    .core {
+      fill: var(--core-color);
+      transition: fill 0.3s linear;
+    }
+
+    .main-body {
+      fill: var(--main-body-color);
+      transition: fill 0.3s 0.05s linear;
+    }
+  }
+}
+
+.card__icon-button:active {
+  .like-icon {
+    .core {
+      fill: var(--core-color);
+      transition: fill 0.3s linear;
+    }
+
+    .main-body {
+      fill: var(--main-body-color);
+      transition: fill 0.3s 0.05s linear;
+    }
+  }
+}
+
+.card__icon-button .like-icon {
+  .core {
+    fill: var(--core-color-tr);
+    transition: fill 0.3s 0.03s linear;
+  }
+  .main-body {
+    fill: var(--main-body-color-tr);
+    transition: fill 0.3s linear;
+  }
+  .contour {
+    fill: var(--contour-color);
+  }
+  .sparks {
+    fill: var(--sparks-fill-color-tr);
+  }
+}
+
+.like-icon.is-liked {
+    animation: icon-grow 0.3s 0.3s ease-in 1 alternate;
+    .core {
+      animation: core-fill 0.3s linear 0.03s;
+      animation-delay: 0.1s;
+      animation-fill-mode: forwards;
+    }
+    .main-body {
+      animation: main-body-fill 0.3s 0.06s linear;
+      animation-delay: 0.1s;
+      animation-fill-mode: forwards;
+    }
+    .contour {
+      animation: contour-fill 0.3s 0.07s linear;
+      animation-delay: 0.1s;
+      animation-fill-mode: forwards;
+    }
+    .sparks {
+      animation: sparks-fill 0.3s 0.5s ease-in 1 alternate;
+    }
+}
+
+@keyframes select__point {
+    0% {
+      inset-inline-start: -20px;
+    }
+    100% {
+      inset-inline-start: -24px;
+    }
+  }
+  
+@keyframes core-fill {
+    to {
+        fill:var(--core-active-color);
+    }
+}
+
+@keyframes main-body-fill {
+    to {
+        fill:var(--main-body-active-color);
+    }
+}
+
+@keyframes contour-fill {
+    to {
+        fill:var(--contour-active-color);
+    }
+}
+
+@keyframes icon-grow {
+    to {
+        transform: scale(1.5);
+        transform-origin: center;
+    }
+}
+
+@keyframes sparks-fill {
+    to {
+        fill:var(--sparks-fill-color);
+    }
+}
