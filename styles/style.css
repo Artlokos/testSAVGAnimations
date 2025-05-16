@@ -241,10 +241,8 @@
 
 .card-buttons__container {
   display: flex;
-  align-self: flex-end;
-  margin-inline-end: 26px;
-  margin-bottom: 25px;
-  gap: 1px;
+  align-self: center;
+  gap: 100px;
 }
 
 .card__icon-button {
