@@ -187,9 +187,9 @@
 
 .img-container {
   position: relative;
-  margin-bottom: 25px;
-  max-inline-size:100%;
-  aspect-ratio: 1 / 1;
+  /* margin-bottom: 25px; */
+  /* max-inline-size:100%; */
+  /* aspect-ratio: 1 / 1; */
 }
 
 .img-container img {
@@ -214,22 +214,6 @@
   padding: 0px 25px 27px 25px;
   font-variation-settings: "wght" var(--font-weight-content), "wdth" 100,
     "opsz" 0;
-}
-
-.card-watermark {
-  position: absolute;
-  z-index: 1;
-  font-family: var(--accent-font), sans-serif;
-  letter-spacing: 0em;
-  width: 100%;
-  text-align: end;
-  inset: 25px 25px auto auto;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 14px;
-  mix-blend-mode: screen;
-  opacity: 0.5;
 }
 
 @supports ((-webkit-text-stroke: var(--border-color))) {
@@ -404,44 +388,4 @@
     margin: 0 2px 0 19px;
     block-size: 20px;
   }
-}
-
-.f__bright {
-  filter: brightness(220%);
-}
-
-.f__grayscale {
-  filter: grayscale(1);
-}
-
-.f__sepia {
-  filter: sepia(100%);
-}
-
-.f__invert {
-  filter: invert(0.7);
-}
-
-.f__saturate {
-  filter: saturate(300%);
-}
-
-.f__mult {
-  filter: brightness(60%) invert(0.6) saturate(400%);
-}
-
-.f__blur {
-  filter: blur(5px);
-}
-
-.f__gray-hard {
-  filter: grayscale(0.9) brightness(50%);
-}
-
-.f__burn {
-  filter: sepia(50%) brightness(108%) hue-rotate(344deg) saturate(664%) contrast(901%);
-}
-
-.f__fire {
-  filter: sepia(27%) brightness(133%) hue-rotate(302deg) saturate(252%) contrast(418%);
 }
