@@ -180,23 +180,22 @@
 .card {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   align-content: flex-start;
   max-inline-size:100%;
 }
 
 .img-container {
-  position: relative;
-  /* margin-bottom: 25px; */
-  /* max-inline-size:100%; */
-  /* aspect-ratio: 1 / 1; */
+
+  inline-size:80%;
+
 }
 
 .img-container img {
-  outline: 2px solid var(--accent-color);
-  object-fit: cover;
-  object-position: center;
-  width:100%;
+  /* outline: 2px solid var(--accent-color); */
+  /* object-fit: cover; */
+  /* object-position: center; */
+  /* width:100%; */
 }
 
 .card-title {

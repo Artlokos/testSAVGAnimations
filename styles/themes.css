@@ -6,6 +6,12 @@
 */
 
 :root.theme-dark {
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P", sans-serif;
+  --main-font-weight: 400;
+  --main-font-bold: 700;
+  --width-desktop: 700px;
+  --width-mobile: 375px;
   --background-color: rgba(0, 0, 0, 1);
   --accent-color: rgba(0, 204, 20, 1);
   --gradient-color__lighting: rgba(0, 127, 12, 1);
@@ -20,6 +26,12 @@
 }
 
 :root.theme-light {
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P", sans-serif;
+  --main-font-weight: 400;
+  --main-font-bold: 700;
+  --width-desktop: 700px;
+  --width-mobile: 375px;
   --background-color: rgba(255, 255, 255, 1);
   --accent-color: rgba(0, 0, 0, 1);
   --gradient-color__lighting: rgba(231, 231, 231, 1);
@@ -36,6 +48,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
+  --main-font: "Inter-Variable", sans-serif;
+  --accent-font: "PressStart2P", sans-serif;
+  --main-font-weight: 400;
+  --main-font-bold: 700;
+  --width-desktop: 700px;
+  --width-mobile: 375px;
     --background-color: rgba(0, 0, 0, 1);
     --accent-color: rgba(0, 204, 20, 1);
     --gradient-color__lighting: rgba(0, 127, 12, 1);
