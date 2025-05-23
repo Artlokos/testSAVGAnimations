@@ -8,11 +8,12 @@
 
 <line 
 	transform="rotate(0.259018 30.6431 41.3916)" 
-	stroke="red" 
+	stroke="gray" 
 	stroke-width="3" 
 	stroke-linecap="undefined" 
 	stroke-linejoin="undefined" 
-	id="rod_middle_ back" 
+	id="rod_middle_ back"
+    class="rod_middle_ back" 
 	y2="63.84671" 
 	x2="43.06899" 
 	y1="18.93657"	 
@@ -20,16 +21,18 @@
 	fill="none"/>
  
 <path 
-	id="svg_2" 
+	id="pad"
+    class="pad" 
 	d="m17.34418,135.64215c-8.35224,0 -15.49393,1.1305 -15.24301,-3.13642c0.25091,-4.26692 6.76532,-13.17298 15.11756,-13.17298c8.35224,0 14.9921,9.15697 15.11756,13.17298c0.12546,4.01601 -6.63986,3.13642 -14.9921,3.13642z" 
 	opacity="undefined" 
 	stroke-width="3" 
-	stroke="#000" 	
+	stroke="gray" 	
 	fill="none"/>
 	
 <line 
-	stroke="#000" 
-	id="svg_3" 
+	stroke="gray" 
+	id="pad_line"
+    class="pad_line" 
 	y2="128.24019" 
 	x2="14.89777" 
 	y1="128.11474" 
@@ -38,8 +41,9 @@
 	fill="none"/>
 	
 <line 
-	stroke="#000" 
-	id="svg_4" 
+	stroke="gray" 
+	id="rod_low_back"
+    class="rod_low_back" 
 	y2="73.54098" 
 	x2="42.12192" 
 	y1="118.70547" 
@@ -47,8 +51,9 @@
 	stroke-width="3" 
 	fill="none"/> 
 <line 
-	stroke="#000" 
-	id="svg_5" 
+	stroke="gray" 
+	id="rod_low_forward"
+    class="rod_low_forward" 
 	y2="76.6774" 
 	x2="48.26931" 
 	y1="122.21826" 
@@ -59,18 +64,20 @@
 <ellipse 
 	ry="7.59014" 
 	rx="7.7156" 
-	id="svg_6" 
+	id="hinge_middle"
+    class="hinge_middle" 
 	cy="69.71455" 
 	cx="48.58295" 
 	stroke-width="3" 
-	stroke="#000"	
+	stroke="gray"	
 	fill="none"/>
 	
 <line 
-	stroke="#000" 
+	stroke="gray" 
 	stroke-linecap="undefined" 
 	stroke-linejoin="undefined" 
-	id="svg_7" 
+	id="rod_middle_forward"
+    class="rod_middle_forward" 
 	y2="15.8308" 
 	x2="24.80887" 
 	y1="61.99895" 
@@ -81,26 +88,29 @@
 <ellipse 
 	ry="7.02559" 
 	rx="6.96286" 
-	id="svg_8" 
+	id="hinge_top"
+    class="hinge_top" 
 	cy="11.81618" 
 	cx="18.97512" 
 	stroke-width="3" 
-	stroke="#000" 
+	stroke="gray" 
 	fill="none"/>
 
 <line 
-	id="svg_10" 
+	id="rod_top_back"
+    class="rod_top_back" 
 	y2="16" 
 	x2="90.42283" 
 	y1="15.57989" 
 	x1="25.93798" 
 	stroke-width="3" 
-	stroke="#000" 
+	stroke="gray" 
 	fill="none"/>
 	
 <line 
-	stroke="#000" 
-	id="svg_11" 
+	stroke="gray" 
+	id="rod_top_back" 
+    class="rod_top_back"
 	y2="8.30339" 
 	x2="90.54829" 
 	y1="8.42885" 
@@ -109,8 +119,9 @@
 	fill="none"/>
 	
 <line 
-	stroke="#000" 
-	id="svg_12" 
+	stroke="gray" 
+	id="head_left_line1"
+    class="head_left_line1" 
 	y2="34.39843" 
 	x2="90.29738" 
 	y1="0.65052" 
@@ -119,8 +130,9 @@
 	fill="none"/>
 
 <line 
-	stroke="#000" 
-	id="svg_13" 
+	stroke="gray" 
+    id="head_right_line1"
+    class="head_right_line1"
 	y2="34.52388" 
 	x2="115.01239" 
 	y1="0.90143" 
@@ -129,8 +141,9 @@
 	fill="none"/>
 	
 <line 
-	stroke="#000" 
-	id="svg_14" 
+	stroke="gray" 
+	id="head_top_line1"
+    class="head_top_line1"
 	y2="1.90509" 
 	x2="116.57413" 
 	y1="1.90509" 
@@ -139,8 +152,9 @@
 	fill="none"/>
 	
 <line 
-	stroke="#000" 
-	id="svg_15" 
+	stroke="gray" 
+	id="head_bottom_line1"
+    class="head_bottom_line1"
 	y2="33.11616" 
 	x2="116.54505" 
 	y1="32.96724" 
@@ -149,18 +163,20 @@
 	fill="none"/>
 
 <line 
-	id="svg_16" 
+	id="head_middle_line3" 
+    class="head_middle_line3" 
 	y2="22.76619" 
 	x2="103.88682" 
 	y1="22.61727" 
 	x1="91.6009" 
 	stroke-width="3" 
-	stroke="#000" 
+	stroke="gray" 
 	fill="none"/>
 
 <line 
-	stroke="#000" 
-	id="svg_17" 
+	stroke="gray" 
+	id="head_middle_line2"
+    class="head_middle_line2" 
 	y2="17" 
 	x2="114.60909" 
 	y1="17" 
@@ -169,38 +185,40 @@
 	fill="none"/>
 
 <line 
-	id="svg_18" 	
+	id="head_middle_line1"
+    class="head_middle_line1" 	
 	y2="9.51228" 	
 	x2="109.32242" 
 	y1="9.51228" 	
 	x1="96.21743" 	
 	stroke-width="3" 	
-	stroke="#000" 	
+	stroke="gray" 	
 	fill="none"/>
 
 <line 
-	id="svg_19" 
+	id="head_left_line2"
+    class="head_left_line2" 
 	y2="46.07223" 
 	x2="94.05808" 
 	y1="34.45644" 
 	x1="94.13254" 
 	stroke-width="3" 
-	stroke="#000" 
+	stroke="gray" 
 	fill="none"/>
  
 	<line 
-	id="svg_20" 
+	id="head_right_line2"
 	y2="46.07223" 
 	x2="110.88608" 
 	y1="34.1586" 
 	x1="110.88608" 
 	stroke-width="3" 
-	stroke="#000" 
+	stroke="gray" 
 	fill="none"/>
  
 	<line 
-	stroke="#000" 
-	id="svg_21" 
+	stroke="gray" 
+	id="head_bottom_line2" 
 	y2="45.02978" 
 	x2="112.37528" 
 	y1="45.02978" 
@@ -209,8 +227,9 @@
 	fill="none"/>
  
 	<line 
-	stroke="#000" 
-	id="svg_22" 
+	stroke="gray" 
+	id="head_left_line3"
+    class="head_left_line3" 
 	y2="56.73695" 
 	x2="97.67958" 
 	y1="46.46144" 
@@ -220,18 +239,20 @@
 	fill="none"/>
  
 	<line 
-	id="svg_23" 
+	id="head_right_line3" 
+    class="head_right_line3" 
 	y2="57.09233" 
 	x2="107.60983" 
 	y1="45.99777" 
 	x1="107.68429" 
 	stroke-width="3" 
-	stroke="#000" 
+	stroke="gray" 
 	fill="none"/>
  
 	<line 
-	stroke="#000" 
-	id="svg_24" 
+	stroke="gray" 
+	id="head_bottom_line3" 
+    class="head_bottom_line3" 
 	y2="56.77757" 
 	x2="109.00766" 
 	y1="56.70311" 
@@ -240,50 +261,96 @@
 	fill="none"/>
  
 	<line 
-	stroke="#000" 
-	id="svg_25" 
-	y2="98.04542" 
-	x2="102" 
-	y1="58.06031" 
-	x1="102.39762" 
+	stroke="red" 
+	id="vertical_lazerbeam"
+    class="vertical_lazerbeam" 
+	y2="94" 
+	x2="102.5" 
+	y1="58" 
+	x1="102.5" 
 	opacity="NaN" 
 	fill="none"/>
  
 	<line 
-	id="svg_26" 
-	y2="109.13999" 
-	x2="96.24113" 
-	y1="97.1519" 
-	x1="108.0803" 
-	stroke="#000" 
+	id="spark45" 
+    class="spark45" 
+	y2="94" 
+	x2="109" 
+	y1="100" 
+	x1="102.5" 
+	stroke="red" 
 	fill="none"/>
 
 	<line 
-	id="svg_27" 
-	y2="109.28891" 
-	x2="107.84" 
-	y1="97.00298" 
-	x1="96.22422" 
-	stroke="#000" 
+	id="spark90"
+    class="spark90" 
+	x1="102.5" 
+	y1="100" 
+	x2="112.5" 
+	y2="100" 
+	stroke="red" 
 	fill="none"/>
 
 	<line 
-	id="svg_28" 
-	y2="102.88533" 
-	x2="110.20581" 
-	y1="102.88533" 
-	x1="93.07997" 
-	stroke="#000" 
+	id="spark135"
+    class="spark135" 
+	x1="102.5" 
+	y1="100" 
+	x2="109" 
+	y2="106.5" 
+	stroke="red" 
+	fill="none"/>
+	
+   <line 
+	id="spark180"
+    class="spark180" 
+	x1="102.5" 
+	y1="100" 
+	x2="102.5" 
+	y2="110" 
+	stroke="red" 
 	fill="none"/>
 	
     <line 
-	id="svg_29" 
-	y2="111.74609" 
-	x2="102" 
-	y1="97.44974" 
-	x1="102" 
-	stroke="#000" 
+	id="spark225"
+    class="spark225" 
+	x1="102.5" 
+	y1="100" 
+	x2="96" 
+	y2="106.5" 
+	stroke="red" 
 	fill="none"/>
+	
+    <line 
+	id="spark270"
+    class="spark270" 
+	x1="102.5" 
+	y1="100" 
+	x2="93.5" 
+	y2="100" 
+	stroke="red" 
+	fill="none"/>
+
+    <line 
+	id="spark305"
+    class="spark305" 
+	x1="102.5" 
+	y1="100" 
+	x2="96.5" 
+	y2="94" 
+	stroke="red" 
+	fill="none"/>
+	
+	<line 
+	id="spark0"
+    class="spark0" 
+	x1="102.5" 
+	y1="100" 
+	x2="102.5" 
+	y2="90" 
+	stroke="red" 
+	fill="none"/>
+	
 </g>
 
 </svg>
