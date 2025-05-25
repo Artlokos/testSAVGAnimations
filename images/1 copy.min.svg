@@ -1,0 +1,11 @@
+<svg viewBox="0 0 120 140" xmlns="http://www.w3.org/2000/svg" style="background-color:aqua" fill="aqua">
+    <path d="M50,120L40,140L80,140L70,120z" fill="gray" />
+    <path fill="gray" d="M55 30h10v90H55z" />
+    <path fill="maroon" d="M55 30h60v10H55z" />
+    <path fill="#fff" d="M115 0h5v20h-5zM115 65h5v20h-5z" />
+    <path fill="#d4aa00" d="M115 40h5v80h-5z" />
+    <circle cx="60" cy="35" r="8" fill="gray" />
+    <circle cx="115" cy="45" r="5" fill="gray" />
+    <path stroke="gray" stroke-width="3" d="M30 100l20-50M90 100L70 50" />
+    <path fill="#fff" d="M115 85h5v15h-5zM115 105h5v10h-5z" />
+</svg>
